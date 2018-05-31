@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "start": "webpack-dev-server --config build/webpack.config.js --mode development",
     "build": "webpack --mode development --config build/webpack.config.js"
   },
   "dependencies": {
